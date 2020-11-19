@@ -24,6 +24,8 @@ class SearchBar extends React.Component {
               value={this.state.term}
               onChange={this.onInputChange}
             />
+
+            {this.state.term ? <p>temp</p> : null}
           </div>
         </form>
       </div>

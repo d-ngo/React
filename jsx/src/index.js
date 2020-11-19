@@ -3,8 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Create a react component
-const App = () => {
-  return <div>Hi there!</div>;
+class App extends React.Component {
+  render() {
+    return <h1>Title</h1>
+  };
 };
 
 // Take the react component and show it on the screen
